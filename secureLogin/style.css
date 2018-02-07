@@ -1,0 +1,84 @@
+body {
+	font-family: Verdana;
+}
+
+header {
+	text-align: center;
+	margin: 20px;
+}
+
+table.user {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.user td, th {
+    border: 1px solid #dddddd;
+    font-weight:bold;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px;
+    width:100%
+}
+
+table.user tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+table.zebra-style {
+    font-family:"Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    text-align:center;
+    border:1px solid #ccc;
+    margin-bottom:25px;
+    width:100%;
+    table-layout: fixed;
+}
+table.zebra-style th {
+    background-color: #dddddd;
+    color: #444;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 5px 4px;
+    border: 1px solid #dddddd;
+    text-align:center;
+    width: 100px;
+
+}
+table.zebra-style td {
+    border: 0.5px solid #dddddd;
+    color: #777;
+    padding: 4px;
+    font-size:13px;
+    text-align:center;
+    width: 100px;
+
+}
+table.zebra-style tr.odd {
+    background:#f2f2f2;
+}
+
+div.child {
+	display: inline-block;
+}
+
+section.parent {
+	text-align: center;
+}
+
+.container
+{
+    min-height: 70%;
+    min-height: -webkit-calc(100% - 186px);
+    min-height: -moz-calc(100% - 186px);
+    min-height: calc(100% - 186px);
+}
+
+footer {
+	text-align: center;
+}
+
+#status { padding:10px; position:bottom; top:10px; border-radius:5px; z-index:10000000; background:#88C4FF; color:#000; font-weight:bold; font-size:12px; margin-bottom:10px; display:none; width:100%; }
+#loading { padding:10px; position:absolute; top:10px; border-radius:5px; z-index:10000000; background:#F99; color:#000; font-weight:bold; font-size:12px; margin-bottom:10px; display:none; width:100%; }
+
+
