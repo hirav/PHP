@@ -5,15 +5,6 @@
 	error_reporting(E_ALL);
 
 
-/*
-$host = 'localhost';
-	$port = '3306';
-	$dbname = 'hirav_testdb';
-	$username = 'ci_hiravdb';
-	$password = 'Tou165?d';
-
-*/
-
 	$host = '127.0.0.1';
 	$port = '3306';
 	$dbname = 'securelogin';
